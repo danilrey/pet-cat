@@ -10,7 +10,12 @@ text {
 .header {
     background-color: #1F2937;
     display: flex;
-
+    flex-direction: column;
+    padding-left:130px;
+    padding-right:130px;
+    height: 25rem;
+    flex:1;
+    
 }
 
 .logo {
@@ -37,15 +42,44 @@ a {
 .hero-down {
     font-size: 18px;
     color: #E5E7EB;
+
 }
 
-button {
+.header button {
     background-color: #3882F6;
     color: white;
+    display: flex;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    margin-top: 60px;
+    font-size: 18px;
+    padding-left: 17px;
+    padding-top: 5px;
+    
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    flex: auto;
+    height: 450px;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    padding: 60px;
+    
 }
 
 img {
-    max-width: 400px;
+    max-width: 220px;
 }
 
 .second {
@@ -99,9 +133,16 @@ img {
     color: #E5E7EB;
 }
 
+button.last {
+    background-color: #3882F6;
+    color: white;
+    
+}
+
 .feet {
     background-color: #1F2937;
     font-style: italic;
     display: flex;
     justify-content: center;
+    color: #F9FAF8;
 }
