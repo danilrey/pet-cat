@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 
 text {
@@ -14,16 +16,29 @@ text {
     padding-left:130px;
     padding-right:130px;
     flex:1 1 36rem;
-    
+}
+
+ul {
+    list-style: none;
+    margin-left:auto ;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.logolinks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.links {
-    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    
 }
 
 a {
@@ -126,9 +141,9 @@ img {
     display: flex;
     background-color: #E5E7EB;
     flex-direction: column;
-    flex:1 1 10rem;
-    align-items: center;
-    justify-content: center;
+    flex:1 1 auto;
+    padding: 50px;
+    padding-right:130px;
 }
 
 .inquote {
@@ -136,19 +151,38 @@ img {
     font-weight: light;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.unqoute {
+.unquote {
     font-weight: 800;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 140px;
 }
 
 .last {
     display: flex;
     border: 2px solid white;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 30rem;
+
 }
 
 .l-box {
     background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36rem;
+    height: 10rem;
+    border-radius: 30px;
+    gap: 56px;
 }
 
 .inlast {
@@ -160,11 +194,19 @@ img {
 .unlast {
     color: #E5E7EB;
 }
+.doublast {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
 
 button.last {
-    background-color: #3882F6;
-    color: white;
-    
+    background-color: white;
+    color: #3882F6;
+    display: flex;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
 }
 
 .feet {
@@ -172,5 +214,7 @@ button.last {
     font-style: italic;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #F9FAF8;
+    flex: 1 1 4rem;
 }
