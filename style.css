@@ -18,13 +18,18 @@ text {
     flex:1 1 36rem;
 }
 
+.links {
+    margin-left: auto;
+
+}
+
 ul {
     list-style: none;
-    margin-left:auto ;
     display: flex;
     gap: 16px;
     padding: 0;
     margin-top: 0;
+
 }
 
 .logolinks {
